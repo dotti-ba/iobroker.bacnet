@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "bacnet",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "BACnet",
+		"titleLang": {
+			"en": "BACnet",
+			"de": "BACnet",
+			"ru": "BACnet",
+			"pt": "BACnet",
+			"nl": "BACnet",
+			"fr": "BACnet",
+			"it": "BACnet",
+			"es": "BACnet",
+			"pl": "BACnet",
+			"zh-cn": "BACnet"
+		},
+		"desc": {
+			"en": "https://en.wikipedia.org/wiki/BACnet",
+			"de": "https://en.wikipedia.org/wiki/BACnet",
+			"ru": "https://en.wikipedia.org/wiki/BACnet",
+			"pt": "https://en.wikipedia.org/wiki/BACnet",
+			"nl": "https://en.wikipedia.org/wiki/BACnet",
+			"fr": "https://en.wikipedia.org/wiki/BACnet",
+			"it": "https://en.wikipedia.org/wiki/BACnet",
+			"es": "https://en.wikipedia.org/wiki/BACnet",
+			"pl": "https://en.wikipedia.org/wiki/BACnet",
+			"zh-cn": "https://zh.wikipedia.org/wiki/BACnet"
+		},
+		"authors": [
+			"dotti-ba <dr.dotti@gmx.de>"
+		],
+		"keywords": [
+			"BACnet BACnetIP"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "bacnet.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/dotti-ba/ioBroker.bacnet/master/admin/bacnet.png",
+		"readme": "https://github.com/dotti-ba/ioBroker.bacnet/blob/master/README.md",
+		"loglevel": "info",
+		"restartAdapters": [
+			"vis"
+		],
+		"localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+		"mode": "daemon",
+		"type": "protocols",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			},
+			"vis"
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
